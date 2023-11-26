@@ -7,7 +7,7 @@ function startGame() {
   userInput = prompt("Enter the Indian State Name");
   while (userInput != secretNumber) {
     count++
-    userInput = prompt("Looser : " + count);
+    userInput = prompt("YOU ARE FOOL : " + count);
   }
 alert(`${count < 5 ? 'YOU ARE SMART' : 'YOU ARE STUPID'}`);
   window.location.href = "success.html";
