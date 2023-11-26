@@ -12,6 +12,6 @@ function startGame() {
       userInput = prompt("YOU ARE FOOL : " + count);
     }
   }
-alert(`${count < 5 ? 'YOU ARE SMART' : 'YOU ARE STUPID'}`);
+alert(`${count <= 5 ? 'YOU ARE SMART' : 'YOU ARE STUPID'}`);
   window.location.href = "success.html";
 }
