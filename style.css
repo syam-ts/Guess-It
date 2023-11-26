@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+background-color: blue;
+}
+button{
+  background-color: red;
+  text-decoration-color: yellow;
+}
+.card {
+  width: 100%; /* Default width for all screens */
+  height: auto; /* Automatically adjust height based on content */
+}
+
+@media (min-width: 600px) {
+  /* Adjust styles for screens with a minimum width of 600 pixels (typically mobile devices) */
+  .card {
+    width: 50%; /* Set width to 50% for screens with a minimum width of 600 pixels */
+  }
+}
