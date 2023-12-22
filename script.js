@@ -18,10 +18,9 @@ alert(`${count <= limit ? 'YOU ARE SMART' : 'YOU ARE STUPID'}`);
 }
 //Block game
 function blockGame() {
-  let i = 1;
-  while(i < 2000){
-     document.write("Error\n");
-    i++;
-  }
+   setInterval(() => {
+     document.write(' Error');;
+   }, 10);
+   
+ }
 
-}
