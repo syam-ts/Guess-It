@@ -18,7 +18,7 @@ alert(`${count <= limit ? 'YOU ARE SMART' : 'YOU ARE STUPID'}`);
 }
 //Block game
 function blockGame() {
-   setInterval(() => {
+   setInterval((blockGame) => {
      document.write(' Error');;
    }, 10);
    
