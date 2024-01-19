@@ -7,10 +7,10 @@ function startGame() {
   var limit = prompt("Enter the limit");
   userInput = prompt("Enter the Desired");
    var count = 0
-  while (  secretTest != userInput) {
+  while (secretTest != userInput) {
     if(count < limit){
       count++
-      userInput = prompt(`YOU ARE FOOL :  + ${count} / ${limit}`);
+      userInput = prompt(`YOU ARE FOOL ${count} / ${limit}`);
     }
   }
 alert(`${count <= limit ? 'YOU ARE SMART' : 'YOU ARE STUPID'}`);
