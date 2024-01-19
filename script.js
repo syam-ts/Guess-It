@@ -10,7 +10,7 @@ function startGame() {
   while (  secretTest != userInput) {
     if(count < limit){
       count++
-      userInput = prompt("YOU ARE FOOL : " + count);
+      userInput = prompt(`YOU ARE FOOL :  + ${count}/${limit}`);
     }
   }
 alert(`${count <= limit ? 'YOU ARE SMART' : 'YOU ARE STUPID'}`);
