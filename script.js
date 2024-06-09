@@ -24,3 +24,4 @@ function blockGame() {
    
  }
 
+//bug in finished limit
