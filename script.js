@@ -25,3 +25,4 @@ function blockGame() {
  }
 
 //bug in finished limit
+//limit has extra 1 is included
